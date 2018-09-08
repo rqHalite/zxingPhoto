@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rock.zxingphoto.MainActivity">
+
+    <Button
+        android:text="开始扫描二维码"
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_gravity="center"
+        android:text="结果"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>
